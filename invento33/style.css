@@ -1,5 +1,8 @@
 *{
     font-family: 'Poppins', sans-serif;
+
+    /* overflow-y: hidden */
+    /* overflow-x: hidden */
 }
 
 body{
@@ -7,16 +10,21 @@ body{
     
     padding: 0;
     width:100%;
-    height:100%;
+    height:99vh;
 
 
 }
 nav{
+
     font-weight: 600;
     font: 10px;
-    padding: 0.3em;
+    padding: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     height: 10%;
 }
@@ -24,15 +32,25 @@ nav{
 
 
 
-
+.page1{
+    width: 100%;
+    height: 100%;
+}
 nav div{
     align-items: center;
     display: flex;
-    gap:0.3em;
+    gap:0.7em;
 }
 
 nav button{
-    padding: 0.4em;
+    
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 2em   ;
+    padding-right: 2em;
+
+    
+    /* padding-top: 0.5em; */
     color: aliceblue;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -40,12 +58,102 @@ nav button{
 }
 
 .main{
+    flex-grow: 1;
+    font-size: 30px;
+    padding-left: 5%;
+
     display:flex;
     flex-direction:column;
-    height: 90%;
+    height: 80%;
     justify-content: center;
 
 }
-.main button {
-    width: 7%   ;
+.main h1{
+    margin: 1px;
 }
+.main button {
+    
+    width: 15%   ;
+}
+.main .head2{
+    color: green;
+}
+
+
+.main2{
+    flex-grow: 3;
+    width:30%;
+
+    padding-right: 5%;
+    
+
+
+
+}
+.main2 img{
+    overflow-x:hidden;
+    height:500px;
+
+}
+.maintop{
+    background-color: rgb(236, 233, 233);
+    height: 90%;
+    align-items: center;
+    display: flex;
+    /* justify-content: ; */
+    gap: 35em;
+}
+
+.page2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    ;
+
+    gap:4em;
+    /* justify-content: center; */
+}
+.page2 p{
+    margin: 0;
+}
+
+
+.phots{
+    padding-top: 0.7em;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    
+}
+.phots img{
+     width: 60px;
+     height : 60px;
+}
+
+.phots3{
+    padding-top: 0.7em;
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    
+}
+
+
+.page3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mian67{
+    width:600px;
+    height:500px;}
+
+.mian67 img{
+    width: 100%;
+    height: 90%;
+}
+    
